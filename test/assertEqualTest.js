@@ -1,3 +1,4 @@
+const assertEqual = require('../assertEqual');
 const assertEqual = function (actual, expected) {
   if (actual === expected) {
     console.log(`Assertion Passed: ${actual} === ${expected}`);
@@ -6,6 +7,4 @@ const assertEqual = function (actual, expected) {
   }
 };
 
-// TEST CODE
-
-module.exports = assertEqual;
+module.exported = assertEqual;
